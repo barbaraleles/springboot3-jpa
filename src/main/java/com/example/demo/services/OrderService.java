@@ -7,9 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.entities.Order;
-import com.example.demo.entities.User;
 import com.example.demo.repositories.OrderRepository;
-import com.example.demo.repositories.UserRepository;
 
 @Service
 public class OrderService {
